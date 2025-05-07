@@ -13,3 +13,4 @@ I will be walking you through this project, how I make it, begin to end.
 
 ### Setting up tolls for my project 
 
+- set up git 
