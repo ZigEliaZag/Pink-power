@@ -11,5 +11,5 @@ I will be walking you through this project, how I make it, begin to end.
 - The purpos of this gym, is to make girls more comfortable and more secure during thier training sension.
 - This will be the safest gym in the city for girls.
 
-### Setting upp tols for my project
+### Setting upp tols for my project 
 
