@@ -48,6 +48,7 @@ Price page / Join Pink
 ![Figma screenshot](/walkthruimg/Price%20page.png)
 
 Job page 
+
 ![Figma screenshot](/walkthruimg/Job%20page%20.png)
 
 
