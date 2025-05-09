@@ -47,10 +47,8 @@ Book page
 Price page / Join Pink
 ![Figma screenshot](/walkthruimg/Price%20page.png)
 
-Job page 
-
-![Figma screenshot](/walkthruimg/Job%20page%20.png)
-
-
 About Us page 
 ![Figma screenshot](/walkthruimg/Abou%20page.png)
+
+Job page 
+![Figma screenshot](/walkthruimg/Job%20page%20.png)
