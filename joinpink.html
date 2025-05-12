@@ -31,10 +31,55 @@
     <header>
         <img src="walkthruimg/joinpinkPic.jpg" alt="woman training" height="500">
     </header>
-    <form action="" method="post">
-        <h4>start your membership today!</h4>
 
+    <form action="" method="post"> <!--empty action since i don't have place to receice submition-->
+        <h4 aria-label="options to choose which membership you want">start your membership today!</h4>
+        <!--users choice-->
+        <section>
+            <div>
+                <h5>adult</h5>
+                <p>18+ years old of age</p>
+                <p>500kr/mon</p>
+                <input type="checkbox" aria-label="Select">
+            </div>
+            <div>
+                <h5>youth</h5>
+                <p> from 13-17 years of age</p>
+                <p>300kr/mon</p>
+                <input type="checkbox" aria-label="Select">
+            </div>
+            <div>
+                <h5>senior</h5>
+                <p>from 60 years old of age</p>
+                <p>250kr/mon</p>
+                <input type="checkbox" aria-label="Select">
+            </div>
+        </section>
 
+        <h3>Please enter you details</h3>
+        <!--users enter their details here -->
+        <fieldset aria-label="Enter your details">
+            <div>
+                <label for="fullname">first name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="type your first name"
+                    aria-label="Write your first name" required>
+            </div>
+            <div>
+                <label for="midname">middle name</label>
+                <input type="text" id="midname" name="midname" placeholder="optional"
+                    aria-label="Write your middle name (optional)">
+            </div>
+            <div>
+                <label for="lname">last name</label>
+                <input type="text" id="lname" name="lname" placeholder="enter your last name"
+                    aria-label="Write your last name" required>
+            </div>
+            <div>
+                <label for="birthdate">birthday</label>
+                <input type="date" id="birthdate" name="birthdate" aria-label="Enter your birthday" required>
+            </div>
+
+        </fieldset>
 
     </form>
 
