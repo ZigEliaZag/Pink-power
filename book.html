@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -12,16 +12,53 @@
 </head>
 
 <body>
+    <!--navigation bar-->
     <nav>
-        <a href="contact.html" aria-label="contact pink power">Contact</a>
-        <a href="price.html" aria-label="price">Price</a>
-        <a hrel="#home" aria-label="Go to pink power top page">Pink Power</a>
-        <a href="book.html" aria-label="book appointment">Book</a>
+        <!--contact link-->
+        <a href="contact.html" aria-label="Go contact pink power page">Contact</a>
+        <!--price link-->
+        <a href="price.html" aria-label=" Go to price page">Price</a>
+        <!--home page link-->
+        <a href="index.html" aria-label="Go to pink power homepage">Pink Power</a>
+        <!--booking link-->
+        <a href="book.html" aria-label="Go to book appointment page">Book</a>
+        <!--start membership link-->
+        <a href="joinpink.html" aria-label="start your membership at pink power">join pink</a>
     </nav>
     <header>
+        <!--image-->
         <img src="/walkthruimg/bookfrontpic.jpg" alt="woman doing plank" height="500">
     </header>
-    <form action=""></form>
+    <form action="" method="post">
+        <!--I leave the action empty since i don't place to receive submition. may update in future-->
+        <fieldset>
+            <p>you can make your booking here.</p>
+            <!--area for users to fill details name/email-->
+            <div>
+                <label for="fullname">name</label>
+                <input id="fullname" type="text" name="name" placeholder="type your full name">
+            </div>
+            <div>
+                <label for="gmaiset">email</label>
+                <input id="gmaiset" type="email" name="email" placeholder="enter your email">
+            </div>
+            <p>what do you want to book</p>
+            <!--choosing buttons-->
+            <div>
+                <input type="radio" id="trainer" required>
+                <label for="trainer">personal trainer</label>
+            </div>
+            <div>
+                <input type="radio" id="visit" required>
+                <label for="visit">visit</label>
+            </div>
+        </fieldset>
+        <!--submition area-->
+        <div>
+            <input type="submit" value="Send">
+        </div>
+
+    </form>
 
 
 </body>
