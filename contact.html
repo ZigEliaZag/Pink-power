@@ -35,24 +35,27 @@
             <p>contact us</p>
             <div>
                 <label for="fullname">name</label>
-                <input id="fullname" type="text" name="name" placeholder="type your full name">
+                <input id="fullname" type="text" name="fullname" aria-label="Type in your full name"
+                    placeholder="type your full name">
             </div>
 
             <div>
                 <label for="gmaiset">email</label>
-                <input id="gmaiset" type="email" name="email" placeholder="enter your email">
+                <input id="gmaiset" type="email" name="email" aria-label="Type in your email"
+                    placeholder="enter your email">
             </div>
         </fieldset>
         <!--this is a text area for users-->
         <fieldset>
             <label for="message">write to us</label>
             <br>
-            <textarea name="message" id="" rows="9" cols="50" placeholder=" write your message here"></textarea>
+            <textarea name="message" id="" rows="9" cols="50" aria-label="Write your message"
+                placeholder=" write your message here"></textarea>
 
         </fieldset>
         <!--this where to sumbmit/send message-->
         <div>
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" aria-label="send">
         </div>
 
     </form>
