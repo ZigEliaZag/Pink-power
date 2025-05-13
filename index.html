@@ -15,20 +15,22 @@
 
 <body>
     <!--navigation bar-->
-    <nav>
-        <!--contact page link-->
-        <a href="contact.html" aria-label="Contact pink power">Contact</a>
-        <!--price page link-->
-        <a href="price.html" aria-label="Go to price section">Price</a>
-        <!--go to homepage link-->
-        <a href="index.html" aria-label="Go to pink power homepage">Pink Power</a>
-        <!--booking link-->
-        <a href="book.html" aria-label="Book appointment">Book</a>
-        <!--start membership link-->
-        <a href="joinpink.html" aria-label="start your membership at pink power section">join pink</a>
-    </nav>
-
     <header>
+        <nav class="navbar">
+            <!--contact page link-->
+            <a href="contact.html" aria-label="Contact pink power">Contact</a>
+            <!--price page link-->
+            <a href="price.html" aria-label="Go to price section">Price</a>
+            <!--go to homepage link-->
+            <a href="index.html" aria-label="Go to pink power homepage">Pink Power</a>
+            <!--booking link-->
+            <a href="book.html" aria-label="Book appointment">Book</a>
+            <!--start membership link-->
+            <a href="joinpink.html" aria-label="start your membership at pink power section">join pink</a>
+        </nav>
+    </header>
+
+    <section class="first_intro">
         <!--introduction-->
 
         <h4>Welcome to Pink Power Gym</h4>
@@ -38,37 +40,39 @@
             Then Pink Power is perfect for you.
             This is a gym where only woman attend
         </p>
-    </header>
+    </section>
     <!--image for introduction-->
-    <div>
+    <div class="homepp_img">
         <img src="walkthruimg/frontpage.png" alt=" woman stretching" height="450">
     </div>
 
     <!--open/close time-->
-    <section>
-        <div>come and visit us today</div>
 
-        <div>
-            <table>
-                <tr>
-                    <th>gym open</th>
-                    <td>Mon-Fri</td>
-                    <td>06-23</td>
-                </tr>
-                <tr>
-                    <th>desk Open</th>
-                    <td>Mon-fri</td>
-                    <td>08-14</td>
-                </tr>
-            </table>
-        </div>
-    </section>
+    <h5 class="come_visit">come and visit us today</h5>
+
+    <div class="openclose">
+        <table>
+            <tr>
+                <th>gym open</th>
+                <td>Mon-Fri</td>
+                <td>06-23</td>
+            </tr>
+            <tr>
+                <th>desk Open</th>
+                <td>Mon-fri</td>
+                <td>08-14</td>
+            </tr>
+        </table>
+    </div>
+
     <!--gym address, not a really address-->
-    <div><span>address</span><a href="https://maps.app.goo.gl/Z7EWPi8gNRzmKkms8" target="_blank" title="Go to address"
-            aria-label="local address (opens in new tab)">storgatan
-            stockholm</a></div>
+    <div>
+        <span class="address_storgatan">address</span><a href="https://maps.app.goo.gl/Z7EWPi8gNRzmKkms8"
+            target="_blank" rel="noopener" aria-label="local address (opens in new tab)">storgatan
+            stockholm</a>
+    </div>
     <!--second intro on page-->
-    <section>
+    <section class="second_intro">
         <div>
             <h4>pink power gym</h4>
             <p>pink Power is a one gender only gym locat in Stockholm,
@@ -82,16 +86,22 @@
             <p>book</p>
         </div>
     </section>
+
     <!--images for decoration-->
-    <!--price image-->
-    <div class="priceimg">
-        <img src="walkthruimg/price.jpg" alt="gym equitments on the ground" height="200">
-        <!--start membership image-->
-        <img src="walkthruimg/Joinpink.jpg" alt="seven woman standing up, one hand holding gym equitments" height="150">
-        <!--book appointment image-->
-        <img src="walkthruimg/bookpic.jpg" alt="woman doing plank" height="150">
-    </div>
-    <p>We have personal trainer at Pink Power Do not hesitate to <a href="book.html">book</a> training session
+    <section>
+        <div class="priceimg">
+            <!--price image-->
+            <img src="walkthruimg/price.jpg" alt="gym equitments on the ground" height="200">
+            <!--start membership image-->
+            <img src="walkthruimg/Joinpink.jpg" alt="seven woman standing up, one hand holding gym equitments"
+                height="150">
+            <!--book appointment image-->
+            <img src="walkthruimg/bookpic.jpg" alt="woman doing plank" height="150">
+        </div>
+    </section>
+
+    <p class="p_personaltrain">We have personal trainer at Pink Power Do not hesitate to <a href="book.html">book</a>
+        training session
         with
         our
         personal trainer</p>
