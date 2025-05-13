@@ -35,6 +35,7 @@
     <form action="" method="post"> <!--empty action since i don't have place to receice submition-->
         <h4 aria-label="options to choose which membership you want">start your membership today!</h4>
         <!--users choice-->
+
         <section>
             <div>
                 <h5>adult</h5>
@@ -54,33 +55,94 @@
                 <p>250kr/mon</p>
                 <input type="checkbox" aria-label="Select">
             </div>
+
         </section>
 
-        <h3>Please enter you details</h3>
+        <h3>Please enter your details</h3>
         <!--users enter their details here -->
+
         <fieldset aria-label="Enter your details">
+
             <div>
+                <!--users name input, line 63 - 77-->
                 <label for="fullname">first name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="type your first name"
                     aria-label="Write your first name" required>
             </div>
+
             <div>
                 <label for="midname">middle name</label>
                 <input type="text" id="midname" name="midname" placeholder="optional"
                     aria-label="Write your middle name (optional)">
             </div>
+
             <div>
                 <label for="lname">last name</label>
-                <input type="text" id="lname" name="lname" placeholder="enter your last name"
+                <input type="text" id="lname" name="lname" placeholder="type your last name"
                     aria-label="Write your last name" required>
             </div>
+
             <div>
+                <!--users phone number input-->
+                <label for="phonenumber">phone</label>
+                <input type="tel" id="phonenumber" name="phonenumber" aria-label="Enter your telephonenume"
+                    placeholder="phone number">
+            </div>
+
+            <div>
+                <!--users birth date input-->
                 <label for="birthdate">birthday</label>
                 <input type="date" id="birthdate" name="birthdate" aria-label="Enter your birthday" required>
             </div>
 
-        </fieldset>
+            <div>
+                <!--users address input-->
+                <label for="address">address</label>
+                <input type="text" id="address" name="address" aria-label="Type in your address"
+                    placeholder="type your address" required>
+            </div>
 
+            <div>
+                <!--users city input-->
+                <label for="city">city</label>
+                <input type="text" id="city" name="city" aria-label="type in the name of your city"
+                    placeholder="type in your city" required>
+            </div>
+
+            <div>
+                <!--postcode input-->
+                <label for="postcode">postcode</label>
+                <input type="text" id="postcode" name="postcode" aria-label="Enter your postcode"
+                    placeholder="type your postcode" required>
+            </div>
+
+        </fieldset>
+        <!--users payment details input-->
+        <fieldset>
+            <h3>payment details</h3>
+            <div>
+
+                <label for="cardname"> card holder</label>
+                <input type="text" name="cardname" id="cardname" aria-label="Enter name on the payment card"
+                    placeholder="Name on the card" required>
+            </div>
+            <div>
+                <label for="cardnumber">card number</label>
+                <input type="text" name="cardnumber" aria-label="Enter your payment card number"
+                    placeholder="card number" required>
+            </div>
+            <div>
+                <label for="valid_date">valid date</label>
+                <input type="text" name="valid_date" id="valid_date" aria-label="Enter valid date on your payment card"
+                    placeholder="00 / 00">
+            </div>
+
+        </fieldset>
+        <!--users details submtion-->
+        <div>
+            <input type="submit" value="apply">
+
+        </div>
     </form>
 
 
