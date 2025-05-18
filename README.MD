@@ -52,3 +52,5 @@ About Us page
 
 Job page 
 ![Figma screenshot](/walkthruimg/Job%20page%20.png)
+I haven't been able to give credits for alla images i got from Pexel, i't impasible to imbed them, I don't know where to give credit on my page yet 
+![Images from Pexels](/walkthruimg/)
