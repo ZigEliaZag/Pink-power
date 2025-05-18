@@ -1,0 +1,195 @@
+/* no space left from top/side */
+body {
+    margin: 0px;
+    background-color: #EBB3C5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Header makeup, background color and space */
+header {
+    padding: 40px;
+    margin: 0;
+    background-color: #F85797;
+}
+
+.navbar_center {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+
+/* navigation bar decoration*/
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 16px;
+}
+
+/* pink-power log/text stay center when strink/grow */
+#pinkpower_text {
+    flex-shrink: 0;
+}
+
+
+/* first introduction text positioning on image */
+.section_height {
+    height: 370px;
+}
+
+.first_introduction {
+    /* for bigger and small screen*/
+    padding: min(4em, 6%);
+    color: white;
+    width: 17rem;
+    position: relative;
+    bottom: 20rem;
+    left: 10%;
+}
+
+
+/* image positioning */
+.intro_image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 40% 40%;
+}
+
+
+/* open close time positioning */
+.come_visit {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.open_close_time {
+    background-color: #F85797;
+    border-radius: 0.50rem;
+    width: 15rem;
+    position: relative;
+    top: 2rem;
+    left: 90px;
+}
+
+.table {
+    text-transform: capitalize;
+}
+
+div span {
+    text-transform: capitalize;
+}
+
+#storgatan {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* second introduction paragraph on page*/
+.safegym {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.second_intro {
+    /* for bigger and small screen*/
+    padding: min(5em, 5%);
+    border-radius: 0.50rem;
+    background-color: #F85797;
+}
+
+.price_container {
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+}
+
+/* 3 images*/
+#image_radius {
+    border-radius: 16px;
+}
+
+
+/* image and text clingy to each other in center of the page */
+.image_price_container {
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 900px;
+    text-transform: uppercase;
+}
+
+.price {
+    color: #000000;
+    width: 198pxpx;
+    height: 300px;
+    text-align: center;
+}
+
+.become_pink {
+    color: #000000;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.book {
+    color: #000000;
+    width: 230px;
+    height: 300px;
+    text-align: center;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    background-color: wheat;
+    bottom: 0;
+    width: 100%;
+}
+
+/* text in footer*/
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 2025 pink power*/
+.footer_pink_power {
+    text-align: center;
+    color: #F85797;
+}
+
+/* list in footer*/
+ul {
+    color: #000000;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+#text_color {
+    color: #000000;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
