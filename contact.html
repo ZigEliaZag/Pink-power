@@ -31,37 +31,37 @@
     <section>
         <img id="top_image" src="/walkthruimg/contactpic.jpg" alt="gym equitment on the ground" height="350">
     </section>
+    <div class="apply_container">
+        <form action="" method="post"> <!-- empty action, can't recieve submition yet-->
+            <!--this is where user fill their details. name/email-->
+            <fieldset>
+                <legend>Contact us</legend>
+                <div>
+                    <label for="fullname">name</label>
+                    <input id="fullname" type="text" name="fullname" aria-label="Type in your full name"
+                        placeholder="Type your full name">
+                </div>
 
-    <form action="">
-        <!--this is where user fill their details. name/email-->
-        <fieldset>
-            <legend>Contact us</legend>
-            <div>
-                <label for="fullname">name</label>
-                <input id="fullname" type="text" name="fullname" aria-label="Type in your full name"
-                    placeholder="Type your full name">
-            </div>
+                <div>
+                    <label for="gmaiset">email</label>
+                    <input id="gmaiset" type="email" name="email" aria-label="Type in your email"
+                        placeholder="Enter your email">
+                </div>
+                <!--this is a text area for users-->
+                <div>
+                    <p>write your message bellow</p>
+                    <textarea name="message" id="message" rows="9" cols="50" aria-label="Write your message"
+                        placeholder=" write your message here"></textarea>
+                </div>
+                <div>
+                    <input id="send" type="submit" value="Send" aria-label="Send the message">
+                </div>
 
-            <div>
-                <label for="gmaiset">email</label>
-                <input id="gmaiset" type="email" name="email" aria-label="Type in your email"
-                    placeholder="Enter your email">
-            </div>
-            <!--this is a text area for users-->
-            <div>
-                <p>write your message bellow</p>
-                <textarea name="message" id="message" rows="9" cols="50" aria-label="Write your message"
-                    placeholder=" write your message here"></textarea>
-            </div>
-            <div>
-                <input id="send" type="submit" value="Send" aria-label="Send the message">
-            </div>
+            </fieldset>
+            <!--this where to sumbmit/send message-->
 
-        </fieldset>
-        <!--this where to sumbmit/send message-->
-
-    </form>
-
+        </form>
+    </div>
 
 </body>
 

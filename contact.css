@@ -1,5 +1,4 @@
 body {
-    background-color: #dcdcdc;
     margin: 0;
 }
 
@@ -34,6 +33,12 @@ header {
     height: 80px;
 }
 
+.apply_container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #dcdcdc;
+    padding: 40px;
+}
 
 /* name and email */
 div {
