@@ -9,141 +9,62 @@
         <meta name="description" content="Pink Power, safest gym for woman based in stockholm">
         <meta name="keywords" content="gym, training, muscles, strong woman">
         <meta name="author" content="Pink Power">
-
+        <link rel="stylesheet" href="joinpink.css">
         <title>Join pink</title>
 
     </head>
 
 <body>
     <!--navigation bar-->
-    <nav>
-        <!--contact page link-->
-        <a href="contact.html" aria-label="Contact pink power">Contact</a>
-        <!--price page link-->
-        <a href="price.html" aria-label="Go to price section">Price</a>
-        <!--go to homepage link-->
-        <a href="index.html" aria-label="Go to pink power homepage">Pink Power</a>
-        <!--booking link-->
-        <a href="book.html" aria-label="Book appointment">Book</a>
-        <!--start membership link-->
-        <a href="joinpink.html" aria-label="start your membership at pink power section">join pink</a>
-    </nav>
     <header>
-        <img src="walkthruimg/joinpinkPic.jpg" alt="woman training" height="500">
+        <nav class="text_bar">
+            <!--contact page link-->
+            <a href="contact.html" aria-label="Contact pink power">Contact</a>
+            <!--price page link-->
+            <a href="price.html" aria-label="Go to price section">Price</a>
+            <!--go to homepage link-->
+            <a href="index.html" aria-label="Go to pink power homepage">Pink Power</a>
+            <!--booking link-->
+            <a href="book.html" aria-label="Book appointment">Book</a>
+            <!--start membership link-->
+            <a href="joinpink.html" aria-label="start your membership at pink power section">join pink</a>
+        </nav>
     </header>
+    <div>
+        <img class="top_image" src="walkthruimg/joinpinkPic.jpg" alt="woman training" height="500">
+    </div>
+    <div class="text_image">
+        <h4>start your membership today!</h4>
+    </div>
+    <div class="apply_container">
 
-    <form action="" method="post"> <!--empty action since i don't have place to receice submition-->
-        <h4 aria-label="options to choose which membership you want">start your membership today!</h4>
-        <!--users choice-->
-
-        <section>
-            <div>
-                <h5>adult</h5>
-                <p>18+ years old of age</p>
-                <p>500kr/mon</p>
-                <input type="checkbox" aria-label="Select">
+        <form action="" method="post"> <!--empty action since i don't have place to receice submition-->
+            <!--users choice-->
+            <div class="apply_form flex">
+                <label for="name">name</label>
+                <input type="text" id="name" name="name" aria-label="Type your full name"
+                    placeholder="Type your full name" required>
+            </div>
+            <div class="apply_form flex">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" aria-label="Type your email" placeholder="Type your email"
+                    required>
+            </div>
+            <div class="apply_form flex">
+                <label id="address_label" for="address">address</label>
+                <textarea name="address" id="address" aria-label="Type your address here"
+                    placeholder="type your address" required></textarea>
+            </div>
+            <div class="apply_form flex">
+                <label for="date">birth date</label>
+                <input type="date" id="date" name="date" required>
             </div>
             <div>
-                <h5>youth</h5>
-                <p> from 13-17 years of age</p>
-                <p>300kr/mon</p>
-                <input type="checkbox" aria-label="Select">
+                <button type="submit" class="apply">apply</button>
             </div>
-            <div>
-                <h5>senior</h5>
-                <p>from 60 years old of age</p>
-                <p>250kr/mon</p>
-                <input type="checkbox" aria-label="Select">
-            </div>
+        </form>
 
-        </section>
-
-        <h3>Please enter your details</h3>
-        <!--users enter their details here -->
-
-        <fieldset aria-label="Enter your details">
-
-            <div>
-                <!--users name input, line 63 - 77-->
-                <label for="fullname">first name</label>
-                <input type="text" id="fullname" name="fullname" placeholder="type your first name"
-                    aria-label="Write your first name" required>
-            </div>
-
-            <div>
-                <label for="midname">middle name</label>
-                <input type="text" id="midname" name="midname" placeholder="optional"
-                    aria-label="Write your middle name (optional)">
-            </div>
-
-            <div>
-                <label for="lname">last name</label>
-                <input type="text" id="lname" name="lname" placeholder="type your last name"
-                    aria-label="Write your last name" required>
-            </div>
-
-            <div>
-                <!--users phone number input-->
-                <label for="phonenumber">phone</label>
-                <input type="tel" id="phonenumber" name="phonenumber" aria-label="Enter your telephonenume"
-                    placeholder="phone number">
-            </div>
-
-            <div>
-                <!--users birth date input-->
-                <label for="birthdate">birthday</label>
-                <input type="date" id="birthdate" name="birthdate" aria-label="Enter your birthday" required>
-            </div>
-
-            <div>
-                <!--users address input-->
-                <label for="address">address</label>
-                <input type="text" id="address" name="address" aria-label="Type in your address"
-                    placeholder="type your address" required>
-            </div>
-
-            <div>
-                <!--users city input-->
-                <label for="city">city</label>
-                <input type="text" id="city" name="city" aria-label="type in the name of your city"
-                    placeholder="type in your city" required>
-            </div>
-
-            <div>
-                <!--postcode input-->
-                <label for="postcode">postcode</label>
-                <input type="text" id="postcode" name="postcode" aria-label="Enter your postcode"
-                    placeholder="type your postcode" required>
-            </div>
-
-        </fieldset>
-        <!--users payment details input-->
-        <fieldset>
-            <h3>payment details</h3>
-            <div>
-
-                <label for="cardname"> card holder</label>
-                <input type="text" name="cardname" id="cardname" aria-label="Enter name on the payment card"
-                    placeholder="Name on the card" required>
-            </div>
-            <div>
-                <label for="cardnumber">card number</label>
-                <input type="text" name="cardnumber" aria-label="Enter your payment card number"
-                    placeholder="card number" required>
-            </div>
-            <div>
-                <label for="valid_date">valid date</label>
-                <input type="text" name="valid_date" id="valid_date" aria-label="Enter valid date on your payment card"
-                    placeholder="00 / 00">
-            </div>
-
-        </fieldset>
-        <!--users details submtion-->
-        <div>
-            <input type="submit" value="apply">
-
-        </div>
-    </form>
+    </div>
 
 
 </body>
