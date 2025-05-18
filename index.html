@@ -23,7 +23,9 @@
             <!--price page link-->
             <div class="navbar_text"><a href="price.html" aria-label="Go to price section">Price</a></div>
             <!--go to homepage link-->
-            <div><a href="index.html" aria-label="Go to pink power homepage">Pink Power</a></div>
+            <div class="navbar_text" id="pinkpower_text"><a href="index.html"
+                    aria-label="Go to pink power homepage">Pink
+                    Power</a></div>
             <!--booking link-->
             <div class="navbar_text"><a href="book.html" aria-label="Book appointment">Book</a></div>
             <!--start membership link-->
@@ -32,138 +34,144 @@
         </div>
     </header>
 
-    <section class="first_intro">
-        <!--introduction-->
-
-        <h4>Welcome to Pink Power Gym</h4>
-        <p>Do you as a woman feel watched
-            and insecure when working out at
-            the all gender gym?
-            Then Pink Power is perfect for you.
-            This is a gym where only woman attend
-        </p>
-    </section>
-    <!--image for introduction-->
-    <div class="homepp_img">
-        <img src="walkthruimg/frontpage.png" alt=" woman stretching" height="450">
-    </div>
-
-    <!--open/close time-->
-
-    <h5 class="come_visit">come and visit us today</h5>
-
-    <div class="openclose">
-        <table>
-            <tr>
-                <th>gym open</th>
-                <td>Mon-Fri</td>
-                <td>06-23</td>
-            </tr>
-            <tr>
-                <th>desk Open</th>
-                <td>Mon-fri</td>
-                <td>08-14</td>
-            </tr>
-        </table>
-    </div>
-
-    <!--gym address, not a really address-->
-    <div>
-        <span class="address_storgatan">address</span><a href="https://maps.app.goo.gl/Z7EWPi8gNRzmKkms8"
-            target="_blank" rel="noopener" aria-label="local address (opens in new tab)">storgatan
-            stockholm</a>
-    </div>
-    <!--second intro on page-->
-    <section class="second_intro">
+    <section class="section_height">
         <div>
-            <h4>pink power gym</h4>
-            <p>pink Power is a one gender only gym locat in Stockholm,
+            <!--image for introduction-->
+            <img class="intro_image" src="walkthruimg/frontpage.png" alt=" woman stretching" width="100%">
+        </div>
+        <div class="first_introduction">
+            <!--introduction text-->
+            <h4>Welcome to Pink Power Gym</h4>
+            <p>Do you as a woman feel watched
+                and insecure when working out at
+                the all gender gym?
+                Then Pink Power is perfect for you.
+                This is a gym where only woman attend
+            </p>
+        </div>
+    </section>
+    <section>
+        <!--open/close time-->
+        <div class="open_close_time">
+            <h5 class="come_visit">come and visit us today</h5>
+            <table class="table">
+                <tr>
+                    <th>gym open</th>
+                    <td>Mon-Fri</td>
+                    <td>06-23</td>
+                </tr>
+                <tr>
+                    <th>desk Open</th>
+                    <td>Mon-fri</td>
+                    <td>08-14</td>
+                </tr>
+            </table>
+            <!--gym address, not a really address-->
+            <span>address: </span><a id="storgatan" href="https://maps.app.goo.gl/Z7EWPi8gNRzmKkms8" target="_blank"
+                rel="noopener" aria-label="local address (opens in new tab)">storgatan
+                stockholm</a>
+        </div>
+    </section>
+    <section>
+        <!--second intro on page-->
+        <div class="second_intro">
+            <h4 class="safegym">pink power gym</h4>
+            <p id="second_intro">Pink Power is a one gender only gym locat in Stockholm,
                 this is your safest gym in town where you can workout without
                 feeling like someone is in your personal space. Welcome to train at our fantastic gym</p>
         </div>
-
-        <div>
-            <p>price</p>
-            <p>become a <span>pink</span> member today!</p>
-            <p>book</p>
-        </div>
     </section>
-
-    <!--images for decoration-->
-    <section>
-        <div class="priceimg">
+    <section class="section_height">
+        <div class="image_price_container">
             <!--price image-->
-            <img src="walkthruimg/price.jpg" alt="gym equitments on the ground" height="200">
+            <div class="price">
+                <div>
+                    <img id="image_radius" src="walkthruimg/price.jpg" alt="gym equitments on the ground" width="190"
+                        height="150">
+                </div>
+                <div class="price_text">
+                    <h2>price</h2>
+                    <p id="lowercase">start today, from 300kr/mon</p>
+                </div>
+            </div>
             <!--start membership image-->
-            <img src="walkthruimg/Joinpink.jpg" alt="seven woman standing up, one hand holding gym equitments"
-                height="150">
+            <div class="become_pink">
+                <div>
+                    <a href="joinpink.html" aria-label="Go to start membership section">
+                        <img id="image_radius" src="walkthruimg/Joinpink.jpg"
+                            alt="seven woman standing up, one hand holding gym equitments" width="250" height="150">
+                    </a>
+                </div>
+                <div class="membership_text">
+                    <h2>become a pink member today!</h2>
+                    <p id="lowercase">girl love pink, start your journey to transform your body at pink</p>
+                </div>
+            </div>
             <!--book appointment image-->
-            <img src="walkthruimg/bookpic.jpg" alt="woman doing plank" height="150">
+            <div class="book">
+                <div>
+                    <a href="book.html">
+                        <img id="image_radius" src="walkthruimg/bookpic.jpg" alt="woman doing plank" width="230"
+                            height="150">
+                    </a>
+                </div>
+                <div class="book_text">
+                    <h2>Book</h2>
+                    <p id="lowercase">book a visit or personal trainer</p>
+                </div>
+            </div>
         </div>
     </section>
-
-    <p class="p_personaltrain">We have personal trainer at Pink Power Do not hesitate to <a href="book.html">book</a>
-        training session
-        with
-        our
-        personal trainer</p>
-
     <footer>
         <!--link to contact pag-->
-        <div>
-            <ul>
-                <!--contact link-->
-                <li><a href="contact.html" aria-label="contact us">contact us</a></li>
-                <!--link to about pink page-->
-                <li> <a href="moreabout.html" aria-label="more about us">more about us</a></li>
-                <li>follow our</li>
-                <!--social media links-->
-            </ul>
-        </div>
+        <div class="footer_container">
+            <div>
+                <ul>
+                    <!--contact link-->
+                    <li><a id="text_color" href="contact.html" aria-label="contact us">contact us</a></li>
+                    <!--link to about pink page-->
+                    <li> <a id="text_color" href="moreabout.html" aria-label="more about us">more about us</a></li>
+                    <li>follow our</li>
+                    <!--social media links-->
 
-        <div>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="follow our instagram (link opens in new tab)">instagram</a>
-            <a href="https://www.facebook.com/?locale=sv_SE" target="_blank" rel="noopener"
-                aria-label="follow our facebook (link opens in new tab)">facebook</a>
-            <a href="https://x.com/" target="_blank" rel="noopener"
-                aria-label="follow our x (link opens in new tab)">x</a>
-        </div>
+                    <li>
+                        <a id="text_color" href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="follow our instagram (link opens in new tab)">instagram</a>
+                        <a id="text_color" href="https://www.facebook.com/?locale=sv_SE" target="_blank" rel="noopener"
+                            aria-label="follow our facebook (link opens in new tab)">facebook</a>
+                        <a id="text_color" href="https://x.com/" target="_blank" rel="noopener"
+                            aria-label="follow our x (link opens in new tab)">x</a>
+                    </li>
+                </ul>
+            </div>
 
-        <!--open time-->
-        <div>
-            <ul>
-                <li>gym open Mon-Sun 06-23</li>
-            </ul>
-            <ul>
-                <li>desk open Mon-Fri 08-14</li>
-            </ul>
-        </div>
+            <!--open time-->
+            <div>
+                <ul>
+                    <li>gym open Mon-Sun 06-23</li>
+                </ul>
+                <ul>
+                    <li>desk open Mon-Fri 08-14</li>
+                </ul>
+            </div>
 
-        <div>
+            <div>
+                <ul>
+                    <!--link to start membership page-->
+                    <li><a id="text_color" href="joinpink.html" aria-label="start you membership at pink power">join
+                            pink</a></li>
+                    <!--link to applying for job-->
+                    <li><a id="text_color" href="jobb.html" aria-label="look for job at pink power">jobb</a></li>
+                    <!--address link, not a really address-->
+                    <li>address:<a id="text_color" href="https://maps.app.goo.gl/gXb5rEK19fcdEk9q8" target="_blank"
+                            rel="noopener" aria-label="local address (opens in new tab)"> storgatan stockholm</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_pink_power">
             <p>© 2025 Pink Power</p>
         </div>
-
-        <div>
-            <ul>
-                <!--link to start membership page-->
-                <li><a href="joinpink.html" aria-label="start you membership at pink power">join pink</a></li>
-                <!--link to applying for job-->
-                <li><a href="jobb.html" aria-label="look for job at pink power">jobb</a></li>
-                <!--address link, not a really address-->
-                <li>address<a href="https://maps.app.goo.gl/gXb5rEK19fcdEk9q8" target="_blank" rel="noopener"
-                        aria-label="local address (opens in new tab)"> storgatan stockholm</a></li>
-            </ul>
-        </div>
-
-
     </footer>
-
-
-
-
-
-
 
 </body>
 
