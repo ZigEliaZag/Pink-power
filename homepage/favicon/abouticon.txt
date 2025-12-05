@@ -1,3 +1,6 @@
-This favicon was generated from a free web icon generator. 
+favicon was generated from a free web icon generator. 
 
 link to the website: https://realfavicongenerator.net/your-favicon-is-ready
+
+home favicon is from google fonts
+link: https://fonts.google.com/icons?categoryFilters=Feeling:%2FExpressive%2FBusiness&selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23000000&icon.platform=web

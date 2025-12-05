@@ -22,3 +22,60 @@ h1 {
     font-style: normal;
     color: #007559;
 }
+
+/* header */
+header {
+    padding: 0 2rem;
+    z-index: 80;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* removes underline text */
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ul menu list */
+.menu-bar {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+/* navigation bar text*/
+ul a {
+    font-family: "Eagle Lake", serif;
+}
+
+/* navigation bar, hidden navigation bar */
+nav {
+    position: absolute;
+    width: 21rem;
+    height: 5.9rem;
+    padding: 0 4rem;
+    top: 120%;
+    background-color: #ffffff10;
+    backdrop-filter: blur(8px);
+    display: none;
+    border-radius: 0.5rem;
+}
+
+/* display navigation bar when clicked */
+#toggle:checked~nav {
+    display: block;
+}
+
+/* hidden input checkbox in navbar */
+header input {
+    display: none;
+}
+
+/* intro image */
+
+#intro-image {
+    background-image: url('../img/pexels-eberhardgross.jpg');
+}
