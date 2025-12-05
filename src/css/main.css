@@ -19,8 +19,10 @@ header {
     z-index: 80;
     position: fixed;
     width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
+    top: 10px;
 }
 
 /* removes underline text */
