@@ -13,16 +13,6 @@ body {
     font-family: "DM Serif Text", serif;
 }
 
-/* page name */
-h1 {
-    font-family: "Pirata One", system-ui;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-style: normal;
-    color: #007559;
-}
-
 /* header */
 header {
     padding: 0 2rem;
@@ -60,6 +50,7 @@ nav {
     top: 120%;
     background-color: #ffffff10;
     backdrop-filter: blur(8px);
+    border-radius: 10px;
     display: none;
     border-radius: 0.5rem;
 }
@@ -78,4 +69,42 @@ header input {
 
 #intro-image {
     background-image: url('../img/pexels-eberhardgross.jpg');
+    background-size: cover;
+    position: relative;
+    min-height: 50vh;
+}
+
+/* page name */
+h1 {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 5rem;
+    background-color: #ffffff10;
+    backdrop-filter: blur(0.50px);
+    border-radius: 15px;
+    color: hsl(166, 34%, 77%);
+}
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* media 768px tablets and larger */
+@media screen and (min-width: 768) {
+    #intro-image {
+        min-height: 40vh;
+    }
+
+    /* change font size according to screen size*/
+    h1 {
+        font-size: calc(1.305rem + 4.2vw);
+    }
 }
