@@ -103,7 +103,7 @@ h1 {
         min-height: 40vh;
     }
 
-    /* change font size according to screen size*/
+    /* change font size according to screen sizes*/
     h1 {
         font-size: calc(1.305rem + 4.2vw);
     }
