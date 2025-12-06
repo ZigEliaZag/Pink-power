@@ -46,7 +46,7 @@ ul a {
 /* navigation bar, hidden navigation bar */
 nav {
     position: absolute;
-    width: 21rem;
+    width: 19rem;
     height: 5.9rem;
     padding: 0 4rem;
     top: 120%;
@@ -55,6 +55,7 @@ nav {
     border-radius: 10px;
     display: none;
     border-radius: 0.5rem;
+    align-content: center;
 }
 
 /* display navigation bar when clicked */
