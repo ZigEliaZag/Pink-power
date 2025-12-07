@@ -260,10 +260,18 @@ p {
     margin-right: 25px;
     border-radius: 10px;
     align-content: center;
+}
+
+.list-cadini>h3 {
     text-transform: capitalize;
 }
 
-/* section content headings*/
+/* to do list ends */
+.list-end {
+    background-image: ;
+}
+
+/* section content headings and p*/
 .bottom-space>h3 {
     padding-bottom: 10px;
     margin-left: 60px;
@@ -272,6 +280,10 @@ p {
 .bottom-space>h5 {
     margin-left: 22px;
     margin-bottom: 5px;
+}
+
+.bottom-space>p {
+    padding-bottom: 10px;
 }
 
 
