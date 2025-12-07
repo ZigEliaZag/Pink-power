@@ -38,6 +38,13 @@ header a {
     list-style-type: none;
 }
 
+/* navigation bar menu and home image*/
+img {
+    box-shadow: 5px 5px 15px rgb(22, 31, 6);
+    background-color: #06290771;
+    border-radius: 4px;
+}
+
 /* navigation bar text*/
 ul a {
     font-family: "Eagle Lake", serif;
@@ -99,6 +106,62 @@ h1 {
     width: 100%;
     height: 100%;
 }
+
+/* adventure section */
+#adventure {
+    height: 15rem;
+    display: flex;
+    background-color: #062907;
+}
+
+/* adventure section content */
+#adventure>div {
+    background-color: hsl(167, 20%, 51%);
+    width: 23rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.adventure>h3 {
+    text-transform: capitalize;
+
+}
+
+.adventure>p,
+h3 {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* list to do section */
+#list-to-do {
+    background-color: #062907;
+    align-content: center;
+}
+
+.sub-list {
+    background-color: hsl(167, 20%, 51%);
+    width: 23rem;
+    height: 10rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.sub-list>h3,
+p {
+    display: flex;
+    align-content: center;
+}
+
 
 /* media 768px tablets and larger */
 @media screen and (min-width: 768) {
