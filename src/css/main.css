@@ -42,8 +42,10 @@ header a {
 /* navigation bar menu and home image*/
 img {
     box-shadow: 5px 5px 15px rgb(22, 31, 6);
-    background-color: #06290771;
+    background-color: hsla(167, 34%, 77%, 0.66);
     border-radius: 4px;
+    width: 40px;
+
 }
 
 /* navigation bar text*/
@@ -116,10 +118,8 @@ h1 {
 }
 
 /* adventure section content */
-#adventure>div {
+.adventure {
     background-color: hsl(167, 20%, 51%);
-    width: 23rem;
-    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 25px;
     margin-right: 20px;
@@ -146,39 +146,20 @@ h3 {
     align-content: center;
 }
 
-/*
-.sub-list {
-    background-color: hsl(167, 20%, 51%);
-    width: 23rem;
-    height: 10rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 20px;
-    border-radius: 10px;
-    align-content: center;
-}*/
 
 /* list to do */
 .list-container {
     width: 100%;
 }
 
-/* secede mountain font*/
 .fa-mountain {
     color: #808080;
 }
 
+/* secede mountain font */
+
 .list-seceda {
     background-color: #007c88;
-    width: 20rem;
-    height: 10rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 10px;
-    align-content: center;
 }
 
 .list-seceda>h3 {
@@ -191,35 +172,20 @@ p {
     margin-right: 20px;
 }
 
-/* Lago Di Braise */
 .fa-water {
     color: rgb(35, 137, 218);
 }
 
+/* Lago Di Braise */
+
 .list-lagi-di-braise {
     background-color: #255826;
-    width: 20rem;
-    height: 10rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 10px;
-    align-content: center;
 
 }
 
 /* Cortina D'ampezzo */
 .list-cortina {
     background-color: #75b877;
-    width: 20rem;
-    height: 10rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 10px;
-    align-content: center;
 }
 
 .fa-city {
@@ -229,7 +195,10 @@ p {
 /* Tre cime di lavado */
 .list-lavaredo {
     background-color: #2c4d2d;
-    width: 20rem;
+}
+
+/* main content styelsheet */
+.bottom-space {
     height: 10rem;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -238,6 +207,7 @@ p {
     border-radius: 10px;
     align-content: center;
     text-transform: capitalize;
+
 }
 
 .fa-tree {
@@ -252,14 +222,6 @@ p {
 
 .list-cadini {
     background-color: rgb(132, 153, 79);
-    width: 20rem;
-    height: 10rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 10px;
-    align-content: center;
 }
 
 .list-cadini>h3 {
@@ -268,7 +230,17 @@ p {
 
 /* to do list ends */
 .list-end {
-    background-image: ;
+    background-image: url("../img/pexels-ninauhlikova-287240.jpg");
+    background-size: cover;
+    height: 17rem;
+}
+
+.list-end {
+    text-transform: uppercase;
+    text-align: center;
+    color: #0af2f2e8;
+    text-shadow: 1px 2px #ffffff;
+    align-content: center;
 }
 
 /* section content headings and p*/
@@ -286,10 +258,40 @@ p {
     padding-bottom: 10px;
 }
 
+footer {
+    height: 5rem;
+    align-content: center;
+}
+
+/* footer */
+footer>ul {
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+
+.fa-square-youtube {
+    color: #ff0000;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.fa-up-long {
+    color: #255826;
+    font-size: 40px;
+}
+
+.fa-handshake {
+    color: #062907;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
 
 
 /* media 768px tablets and larger */
-@media screen and (min-width: 768) {
+@media (min-width: 768px) {
     #intro-image {
         min-height: 40vh;
     }
@@ -298,4 +300,10 @@ p {
     h1 {
         font-size: calc(1.305rem + 4.2vw);
     }
+
+    footer {
+        height: 25rem;
+    }
+
+    ul {}
 }
