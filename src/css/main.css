@@ -84,6 +84,7 @@ header input {
     background-image: url('../img/pexels-eberhardgross.jpg');
     background-size: cover;
     position: relative;
+    background-position: center;
     min-height: 50vh;
 }
 
@@ -199,7 +200,7 @@ p {
 
 /* main content styelsheet */
 .bottom-space {
-    height: 10rem;
+    height: 15rem;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 25px;
@@ -232,6 +233,7 @@ p {
 .list-end {
     background-image: url("../img/pexels-ninauhlikova-287240.jpg");
     background-size: cover;
+    position: relative;
     height: 17rem;
 }
 
@@ -258,6 +260,7 @@ p {
     padding-bottom: 10px;
 }
 
+/* footer */
 footer {
     height: 5rem;
     align-content: center;
@@ -288,7 +291,18 @@ footer>ul {
     margin-top: 10px;
 }
 
+/* feedback form */
+#form-background {
+    /* body background*/
+    background-image: url("../img/pexels-eberhardgross-1386993.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
+#form-container {
+
+    background-color: #ff0000;
+}
 
 /* media 768px tablets and larger */
 @media (min-width: 768px) {
@@ -302,8 +316,10 @@ footer>ul {
     }
 
     footer {
-        height: 25rem;
+        height: 7rem;
+
+
     }
 
-    ul {}
+    .list-end {}
 }
