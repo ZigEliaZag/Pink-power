@@ -297,12 +297,11 @@ footer>ul {
     background-image: url("../img/pexels-eberhardgross-1386993.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+
 }
 
-#form-container {
-
-    background-color: #ff0000;
-}
+#main-form {}
 
 /* media 768px tablets and larger */
 @media (min-width: 768px) {
