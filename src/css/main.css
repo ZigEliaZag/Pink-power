@@ -433,6 +433,10 @@ textarea {
 @media (min-width: 1024px),
 (min-width: 1440px) {
 
+    .bottom-space {
+        max-width: 45rem;
+    }
+
     /* footer */
     .footer-link {
         margin-top: 12rem;
@@ -445,7 +449,7 @@ textarea {
     }
 
     body {
-        font-size: 21px;
+        font-size: 15px;
         color: #ffffff;
     }
 
