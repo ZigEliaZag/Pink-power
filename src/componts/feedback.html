@@ -25,15 +25,47 @@
 </head>
 
 <body id="form-background">
-    <main id="main-form">
-
-        <form action="https://formdump.codeinstitute.net" method="post" id="feedback">
-            <fieldset id="feedback-form">
-                <h5>Please let us know what you think about Dolomites recondation<i class="fa-solid fa-heart"></i></h5>
-                <label for=""></label>
-
-            </fieldset>
-        </form>
+    <header>
+        <div class="feedback-header">
+            <ul>
+                <li>
+                    <a href="/index.html">
+                        <img src="/homepage/home_31dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="https://formdump.codeinstitute.net" method="post" id="feedback">
+                <fieldset id="feedback-form">
+                    <div class="user-infor">
+                        <h5>Please let us know what you think about Dolomites recommendation
+                            <br>
+                            <i class="fa-solid fa-heart"></i>
+                        </h5>
+                        <div class="input-container">
+                            <label for="name">Name</label>
+                            <br>
+                            <input type="text" id="name" name="name" aria-label="enter your name" autocomplete="off"
+                                required>
+                            <br>
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="email" id="email" name="email" pattern="+@beststartupever.com"
+                                aria-label="enter your email" autocomplete="off" required>
+                        </div>
+                    </div>
+                    <div class="user-feeback-message">
+                        <textarea name="userfeeback" type="text" id="feedbackmessage" autocomplete="off"
+                            placeholder="Write your feedback"></textarea>
+                        <br>
+                        <input type="submit" value="Send">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
 
     </main>
 
