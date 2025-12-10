@@ -308,7 +308,7 @@ footer>ul {
 .feedback-header {
     /* hidden header */
     margin-left: 37%;
-    display: none;
+    /*display: none;*/
 }
 
 .feedback-header ul {
@@ -441,10 +441,12 @@ textarea {
     .footer-link img {
         width: 6rem;
         border-radius: 5px;
+        display: none;
     }
 
     body {
-        font-size: 30px;
+        font-size: 21px;
+        color: #ffffff;
     }
 
     .header-image nav {
