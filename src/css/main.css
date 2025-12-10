@@ -305,7 +305,7 @@ footer>ul {
 }
 
 .feedback-header {
-    margin-left: 40%;
+    margin-left: 37%;
 }
 
 .feedback-header ul {
@@ -416,6 +416,7 @@ textarea {
 
     }
 
+    /* feedback form header */
     .feedback-header {
         margin-left: 50%;
     }
