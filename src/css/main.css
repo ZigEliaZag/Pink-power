@@ -406,6 +406,11 @@ textarea {
     margin-top: 7rem;
 }
 
+/* hidden images */
+#list-to-do img {
+    display: none;
+}
+
 /* media 768px tablets and larger */
 @media (min-width: 768px) {
     #intro-image {
@@ -427,6 +432,7 @@ textarea {
     .feedback-header {
         margin-left: 50%;
     }
+
 }
 
 /* laptop screen */
@@ -459,5 +465,13 @@ textarea {
         border-radius: 10px;
         background-color: hsla(167, 34%, 77%, 0.72);
     }
+
+    #list-to-do img {
+        display: block;
+        height: 10rem;
+        width: 38rem;
+        margin-left: 40rem;
+    }
+
 
 }
