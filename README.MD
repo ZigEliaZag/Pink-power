@@ -1,56 +1,33 @@
-# Pink Power
-- Name: Elia Kaliza
-- Gmail: eliakaliza50@icloud.com
+# Dolomlites
+- Developer: Elia Kaliza
+- contact: eliakaliza50@icloud.com
+
 Hello, I'm going to create my first Web site project.
-#### Project 
-I will be walking you through this project, how I make it, begin to end.
+
+this is easy natigate web for user who is looking for next travel destination.
+
 
 ### Name and Funktion
-- The of this website will be "Pink Power". 
-- This is a (Girls only) gym.
-- The purpos of this gym, is to make girls more comfortable and more secure during their training session.
-- This will be the safest gym in the city for girls.
+- The name of website  is Dolomites.
+- User can give feedback if they like the recommandetion
+- This is a travel recommendation for user.
 
-### Setting up tolls for my project 
+The purpose of this webpage is to give user best description of different destination in Dolomites. 
 
-Set up git, download 
-[Git] (https://git-scm.com/downloads)
- I'm using Macbook. ![Screenshot image](/walkthruimg/b.png)
+If user is positive about the page/recommendation or would like us to emprove, they can give write us a feedback in feedback section. 
 
-I downloaded macOS for my computer.
-Cheacking terminal to see if git is installed. Typed in "git"
+The user must provide name and email in order to send feedback.
 
-![terminal screenshot](/walkthruimg/Git.png)
-Finally installed. 
+##### Credit for images used on this project
 
+All images are from pexels.
 
-# Page idea
-I have sketched how website should look like
-
-![Sketched image](/walkthruimg/page%20sketching%20idea.png)
-
-I went on Figma to design it, this is how it look so far without makeup. 
-
-Home page
-![Figma screenshot](/walkthruimg/Front%20page.png)
-
-Contact page 
-![Figma screenshot](/walkthruimg/Contact%20page.png)
-
-Price page
-![Figma screenshot](/walkthruimg/Price%20page.png)
+- Dreamypixel
+- Eberhargross
+- Ninau Likova 
+- Pixabay 
+- Tomverdoot 
+ 
 
 
-Book page 
-![Figma screenshot](/walkthruimg/Book%20page.png)
 
-Price page / Join Pink
-![Figma screenshot](/walkthruimg/Price%20page.png)
-
-About Us page 
-![Figma screenshot](/walkthruimg/Abou%20page.png)
-
-Job page 
-![Figma screenshot](/walkthruimg/Job%20page%20.png)
-I haven't been able to give credits for alla images i got from Pexel, i't impasible to imbed them, I don't know where to give credit on my page yet 
-![Images from Pexels](/walkthruimg/)
