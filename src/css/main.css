@@ -454,11 +454,13 @@ textarea {
         display: none;
     }
 
+    /* body*/
     body {
         font-size: 15px;
         color: #ffffff;
     }
 
+    /*header*/
     .header-image nav {
         height: 14rem;
         width: 29rem;
@@ -466,11 +468,14 @@ textarea {
         background-color: hsla(167, 34%, 77%, 0.72);
     }
 
+    /* main content images in section*/
     #list-to-do img {
         display: block;
         height: 10rem;
         width: 38rem;
         margin-left: 40rem;
+        background-size: cover;
+        background-position: center;
     }
 
 
