@@ -6,89 +6,22 @@
 }
 
 body {
-    min-height: 100vh;
     overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
     color: #000000;
     font-family: "DM Serif Text", serif;
 }
 
-/* header */
-header {
-    padding: 0 2rem;
-    z-index: 80;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    top: 10px;
-}
 
-/* removes underline text */
-header a {
-    text-decoration: none;
-    color: #000000;
-}
-
-/* ul menu list */
-.menu-bar {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    list-style-type: none;
-}
-
-/* navigation bar menu and home image*/
-img {
-    box-shadow: 5px 5px 15px rgb(22, 31, 6);
-    background-color: hsla(167, 34%, 77%, 0.66);
-    border-radius: 4px;
-    width: 40px;
-
-}
-
-/* navigation bar text*/
-ul a {
-    font-family: "Eagle Lake", serif;
-}
-
-/* navigation bar, hidden navigation bar */
-.header-image nav {
-    position: absolute;
-    width: 19rem;
-    height: 5.9rem;
-    padding: 0 4rem;
-    top: 120%;
-    background-color: #ffffff10;
-    backdrop-filter: blur(8px);
-    border-radius: 10px;
-    display: none;
-    border-radius: 0.5rem;
-    align-content: center;
-}
-
-/* display navigation bar when clicked */
-#toggle:checked~nav {
-    display: block;
-}
-
-/* hidden input checkbox in navbar */
-header input {
-    display: none;
-}
-
-/* intro image */
-
-#intro-image {
+/* hero section */
+.hero-section {
     background-image: url('../img/pexels-eberhardgross.jpg');
     background-size: cover;
     position: relative;
     background-position: center;
-    min-height: 50vh;
+    height: 90vh;
 }
 
-/* page name */
+/* hero section text */
 h1 {
     font-family: "Pirata One", system-ui;
     font-weight: 400;
@@ -100,197 +33,9 @@ h1 {
     backdrop-filter: blur(0.50px);
     border-radius: 15px;
     color: hsl(166, 34%, 77%);
+    text-shadow: 2px 2px white;
 }
 
-.intro-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-/* adventure section */
-#adventure {
-    height: 15rem;
-    display: flex;
-    background-color: #062907;
-}
-
-/* adventure section content */
-.adventure {
-    background-color: hsl(167, 20%, 51%);
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 20px;
-    border-radius: 10px;
-    align-content: center;
-}
-
-.adventure>h3 {
-    text-transform: capitalize;
-    margin-left: 20px;
-
-}
-
-.adventure>p,
-h3 {
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-/* list to do section */
-#list-to-do {
-    background-color: #062907;
-    align-content: center;
-}
-
-
-/* list to do */
-.list-container {
-    width: 100%;
-}
-
-.fa-mountain {
-    color: #808080;
-}
-
-/* secede mountain font */
-
-.list-seceda {
-    background-color: #007c88;
-}
-
-.list-seceda>h3 {
-    text-transform: capitalize;
-}
-
-.list-seceda>h3,
-p {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.fa-water {
-    color: rgb(35, 137, 218);
-}
-
-/* Lago Di Braise */
-
-.list-lagi-di-braise {
-    background-color: #255826;
-
-}
-
-/* Cortina D'ampezzo */
-.list-cortina {
-    background-color: #75b877;
-}
-
-.fa-city {
-    color: rgb(187, 137, 102);
-}
-
-/* Tre cime di lavado */
-.list-lavaredo {
-    background-color: #2c4d2d;
-}
-
-/* main content styelsheet */
-.bottom-space {
-    height: 15rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 10px;
-    align-content: center;
-    text-transform: capitalize;
-
-}
-
-.fa-tree {
-    color: #91901a;
-}
-
-/* Cadini di misurina */
-.fa-person-hiking {
-    box-shadow: 5px 5px 4px;
-    border-radius: 4px;
-}
-
-.list-cadini {
-    background-color: rgb(132, 153, 79);
-}
-
-.list-cadini>h3 {
-    text-transform: capitalize;
-}
-
-/* to do list ends */
-.list-end {
-    background-image: url("../img/pexels-ninauhlikova-287240.jpg");
-    background-size: cover;
-    position: relative;
-    height: 17rem;
-}
-
-.list-end {
-    text-transform: uppercase;
-    text-align: center;
-    color: #0af2f2e8;
-    text-shadow: 1px 2px #ffffff;
-    align-content: center;
-}
-
-/* section content headings and p*/
-.bottom-space>h3 {
-    padding-bottom: 10px;
-    margin-left: 60px;
-}
-
-.bottom-space>h5 {
-    margin-left: 22px;
-    margin-bottom: 5px;
-}
-
-.bottom-space>p {
-    padding-bottom: 10px;
-}
-
-/* footer */
-footer {
-    height: 5rem;
-    align-content: center;
-}
-
-/* footer */
-footer>ul {
-    justify-content: space-evenly;
-    display: flex;
-    text-align: center;
-    list-style-type: none;
-}
-
-/* footer fonts */
-.fa-square-youtube {
-    color: #ff0000;
-    font-size: 35px;
-    margin-top: 10px;
-}
-
-.fa-up-long {
-    color: #255826;
-    font-size: 40px;
-}
-
-.fa-handshake {
-    color: #062907;
-    font-size: 30px;
-    margin-top: 10px;
-}
 
 /* feedback form body */
 #form-background {
@@ -402,81 +147,14 @@ textarea {
 
 }
 
-.footer-link {
-    margin-top: 7rem;
-}
+/* smaller screen 600px down */
+@media only screen and (max-width: 600px) {}
 
-/* hidden images */
-#list-to-do img {
-    display: none;
-}
+/* small screen, 600px tablet up */
+@media only screen and (min-width: 600px) {}
 
-/* media 768px tablets and larger */
-@media (min-width: 768px) {
-    #intro-image {
-        min-height: 40vh;
-    }
+/* medium screen, 768px tablet up  */
+@media only screen and (min-width: 768px) {}
 
-    /* h1 on intro image, change font size according to screen sizes*/
-    h1 {
-        font-size: calc(1.305rem + 4.2vw);
-    }
-
-    footer {
-        height: 7rem;
-
-
-    }
-
-    /* feedback form header */
-    .feedback-header {
-        margin-left: 50%;
-    }
-
-}
-
-/* laptop screen */
-@media (min-width: 1024px),
-(min-width: 1440px) {
-
-    .bottom-space {
-        max-width: 45rem;
-    }
-
-    /* footer */
-    .footer-link {
-        margin-top: 12rem;
-    }
-
-    .footer-link img {
-        width: 6rem;
-        border-radius: 5px;
-        display: none;
-    }
-
-    /* body*/
-    body {
-        font-size: 15px;
-        color: #ffffff;
-    }
-
-    /*header*/
-    .header-image nav {
-        height: 14rem;
-        width: 29rem;
-        border-radius: 10px;
-        background-color: hsla(167, 34%, 77%, 0.72);
-    }
-
-    /* main content images in section*/
-    #list-to-do img {
-        display: block;
-        height: 10rem;
-        width: 38rem;
-        margin-left: 40rem;
-        background-size: cover;
-        background-position: center;
-    }
-
-
-}
+/* large screens 1200px up */
+@media only screen and (max-width: 1200px) {}
