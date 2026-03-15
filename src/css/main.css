@@ -6,11 +6,35 @@
 }
 
 body {
-    overflow-x: hidden;
     color: #000000;
     font-family: "DM Serif Text", serif;
 }
 
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-content: center;
+    background-color: #141010;
+    height: 200px;
+}
+
+
+
+.page-name {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 5rem;
+    backdrop-filter: blur(0.50px);
+    border-radius: 15px;
+    color: hsl(166, 34%, 77%);
+    text-shadow: 2px 2px white;
+    text-decoration: none;
+}
 
 /* hero section */
 .hero-section {
@@ -20,22 +44,6 @@ body {
     background-position: center;
     height: 90vh;
 }
-
-/* hero section text */
-h1 {
-    font-family: "Pirata One", system-ui;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-style: normal;
-    font-size: 5rem;
-    background-color: #ffffff10;
-    backdrop-filter: blur(0.50px);
-    border-radius: 15px;
-    color: hsl(166, 34%, 77%);
-    text-shadow: 2px 2px white;
-}
-
 
 /* feedback form body */
 #form-background {
