@@ -93,19 +93,29 @@ header nav {
     background-size: cover;
     position: relative;
     background-position: center;
-    height: 90vh;
+    height: 82vh;
     display: flex;
     justify-content: center;
 
-    .hero-context {
+    /* hero context */
+    .hero-content-container {
+        max-height: 200px;
         max-width: 412px;
         margin-top: 17%;
+        align-content: center;
+        padding: 2.3px;
+        /* add black color in center while sides have #f7f7f7 */
+        background: linear-gradient(135deg, #5c715e, #000000, #5c715e);
+        /* adds white shadow under */
+        box-shadow: 0px 0.8rem 1.5rem -0.7rem #f7f7f7;
+        border-radius: 0.7rem;
 
 
+        /* hero text*/
         .hero-text {
+            padding: 1rem;
             color: #ffffff;
 
-            /* hero text*/
             h1 {
                 font-size: larger;
             }
