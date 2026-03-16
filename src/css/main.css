@@ -5,9 +5,18 @@
     box-sizing: border-box;
 }
 
+html {
+    /*overflow: hidden;*/
+}
+
 body {
     color: #000000;
     font-family: "DM Serif Text", serif;
+    /*transform-style: preserve-3d;*/
+    background-color: #5c715e;
+    background: linear-gradient(#f7f7f7, #f7f7f7, #f7f7f7, #f7f7f7);
+    /* overflow-y: scroll;
+    overflow-x: hidden;*/
 }
 
 
@@ -121,6 +130,27 @@ header nav {
             }
         }
     }
+}
+
+#section-cards {
+    /* position: relative;
+    transform-style: inherit;*/
+}
+
+/*#section-cards::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} */
+
+#section-1 {
+    background-image: url("../img/pexels-pixabay-461944.jpg");
+    background-size: cover;
+    z-index: 1;
+    height: 30rem;
 }
 
 /* feedback form body */
