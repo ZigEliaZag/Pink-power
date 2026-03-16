@@ -16,11 +16,14 @@ header {
     top: 0;
     left: 0;
     align-content: center;
-    background-color: #141010;
-    height: 200px;
+    background-color: #265a5c;
+    height: 120px;
 }
 
 
+.dolomites {
+    margin-left: 37px;
+}
 
 .page-name {
     font-family: "Pirata One", system-ui;
@@ -34,6 +37,54 @@ header {
     color: hsl(166, 34%, 77%);
     text-shadow: 2px 2px white;
     text-decoration: none;
+}
+
+/* navigation bar ul - list */
+ul {
+    list-style: none;
+}
+
+/* nav anchors */
+a {
+    text-decoration: none;
+}
+
+/* nav button, hidden on large screen */
+button {
+    display: none;
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 1.8rem;
+}
+
+/* navbar list large screen */
+.navbar-large-screen li {
+    /* makes li horizontal */
+    display: inline-block;
+    margin-left: 37px;
+}
+
+/* navbar content */
+.navbar-large-screen span {
+    color: aliceblue;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* change coolr when hover on text */
+.navbar-large-screen span:hover {
+    color: hsl(166, 34%, 77%);
+    text-decoration: 2.6px underline;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* hero section */
