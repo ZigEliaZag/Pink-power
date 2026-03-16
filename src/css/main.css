@@ -20,9 +20,9 @@ header {
     height: 120px;
 }
 
-
+/* name of page */
 .dolomites {
-    margin-left: 37px;
+    margin-left: 36%;
 }
 
 .page-name {
@@ -94,6 +94,23 @@ header nav {
     position: relative;
     background-position: center;
     height: 90vh;
+    display: flex;
+    justify-content: center;
+
+    .hero-context {
+        max-width: 412px;
+        margin-top: 17%;
+
+
+        .hero-text {
+            color: #ffffff;
+
+            /* hero text*/
+            h1 {
+                font-size: larger;
+            }
+        }
+    }
 }
 
 /* feedback form body */
