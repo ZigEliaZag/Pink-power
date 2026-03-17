@@ -19,6 +19,8 @@ header {
     align-content: center;
     background-color: #265a5c;
     height: 120px;
+    /* sticky header while scroll */
+    position: sticky;
 }
 
 /* name of page */
@@ -92,7 +94,6 @@ header nav {
 .hero-section {
     background-image: url('../img/pexels-eberhardgross.jpg');
     background-size: cover;
-    position: relative;
     background-position: center;
     height: 82vh;
     display: flex;
@@ -275,12 +276,13 @@ header nav {
     height: 30rem;
     display: flex;
     justify-content: center;
+    width: 80vw;
 
 
     .card-4 {
-        background: linear-gradient(58deg, #f1f1f1, #392f2f, #915b4a);
+        background-color: #393e469d;
         color: white;
-        /*width: 40rem;*/
+        width: 40rem;
         height: fit-content;
         align-self: flex-start;
         align-content: center;
@@ -296,13 +298,14 @@ header nav {
                 text-align: center;
                 font-size: x-large;
             }
+
         }
     }
 }
 
 /* feedback form body */
 .form-container {
-    /* body background*/
+    /* form background */
     background-image: url("../img/pexels-eberhardgross-1386993.jpg");
     background-size: cover;
     background-position: center;
@@ -421,5 +424,22 @@ textarea {
 /* medium screen, 768px tablet up  */
 @media only screen and (min-width: 768px) {}
 
-/* large screens 1200px up */
-@media only screen and (max-width: 1200px) {}
+/* 4k screens 2560px up */
+@media only screen and (max-width: 2560px) {
+
+    /* hero sectio */
+    .hero-section {
+        height: 86.8vh;
+    }
+
+    /* name of page */
+    .dolomites {
+        margin-left: 40%;
+    }
+
+    /* feedback form */
+    .form-container {
+        height: 90vh;
+    }
+
+}
