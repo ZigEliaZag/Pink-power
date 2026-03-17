@@ -135,6 +135,7 @@ header nav {
 #section-cards {
     max-width: 80%;
     margin-top: 2rem;
+    justify-content: center;
 }
 
 /* adds shadow to section */
@@ -148,9 +149,31 @@ header nav {
     background-image: url("../img/pexels-pixabay-461944.jpg");
     background-size: cover;
     background-position: center;
-    z-index: 1;
     height: 30rem;
-    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+
+    .cards {
+        background-color: #dde0ab;
+        width: 40rem;
+        height: 10rem;
+        align-self: flex-end;
+        align-content: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        .seceda-content {
+            justify-content: center;
+            padding: 36px 36px;
+
+            h3 {
+                text-align: center;
+                font-size: x-large;
+            }
+        }
+
+
+    }
 
 }
 
@@ -159,13 +182,59 @@ header nav {
     background-size: cover;
     background-position: center;
     height: 30rem;
+    display: flex;
+    justify-content: center;
+
+    .cards {
+        background-color: #f5e1da;
+        width: 40rem;
+        height: 10rem;
+        align-self: flex-end;
+        align-content: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        .lago-content {
+            justify-content: center;
+            padding: 36px 36px;
+
+            h3 {
+                text-align: center;
+                font-size: x-large;
+            }
+        }
+    }
 }
+
 
 .cortina {
     background-image: url("../img/pexels-dreamypixel-554609.jpg");
     background-size: cover;
     background-position: center;
     height: 30rem;
+    display: flex;
+    justify-content: center;
+
+    .cards {
+        background-color: #99b27f;
+        width: 40rem;
+        height: 10rem;
+        align-self: flex-end;
+        align-content: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        .cortina-content {
+            justify-content: center;
+            padding: 36px 36px;
+
+            h3 {
+                text-align: center;
+                font-size: x-large;
+            }
+        }
+    }
+
 }
 
 .lavaredo {
@@ -173,6 +242,30 @@ header nav {
     background-size: cover;
     background-position: center;
     height: 30rem;
+    display: flex;
+    justify-content: center;
+
+    .cards {
+        background: linear-gradient(58deg, #f1f1f1, #392f2f, #915b4a);
+        color: white;
+        width: 40rem;
+        height: 10rem;
+        align-self: flex-end;
+        align-content: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        .lavaredo-content {
+            justify-content: center;
+            padding: 36px 36px;
+
+            h3 {
+                text-align: center;
+                font-size: x-large;
+            }
+        }
+    }
+
 }
 
 .cadini {
@@ -180,6 +273,33 @@ header nav {
     background-size: cover;
     background-position: center;
     height: 30rem;
+    display: flex;
+    justify-content: center;
+
+
+    /* {
+        background: linear-gradient(58deg, #f1f1f1, #392f2f, #915b4a);
+        color: white;
+        width: 40rem;
+        height: 10rem;
+        align-self: flex-end;
+        align-content: center;
+        justify-content: center;
+        border-radius: 8px;*/
+
+    .cadini-content {
+        justify-content: center;
+        background-color: #f3f0f0;
+        padding: 36px 36px;
+        align-self: flex-end;
+
+        h3 {
+            text-align: center;
+            font-size: x-large;
+        }
+    }
+
+
 }
 
 /* feedback form body */
