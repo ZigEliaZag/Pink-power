@@ -5,18 +5,10 @@
     box-sizing: border-box;
 }
 
-html {
-    /*overflow: hidden;*/
-}
 
 body {
     color: #000000;
     font-family: "DM Serif Text", serif;
-    /*transform-style: preserve-3d;*/
-    background-color: #5c715e;
-    background: linear-gradient(#f7f7f7, #f7f7f7, #f7f7f7, #f7f7f7);
-    /* overflow-y: scroll;
-    overflow-x: hidden;*/
 }
 
 
@@ -132,29 +124,66 @@ header nav {
     }
 }
 
-#section-cards {
-    /* position: relative;
-    transform-style: inherit;*/
+/* */
+/* adds background color to all section under hero section */
+.background {
+    background-color: #050504;
+    display: flex;
+    justify-content: center;
 }
 
-/*#section-cards::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-} */
+#section-cards {
+    max-width: 80%;
+    margin-top: 2rem;
+}
 
-#section-1 {
+/* adds shadow to section */
+.section-shadow {
+    box-shadow: 4px 4px #dde0ab, -0.9em 0 0.8em #f5f9ee;
+    border-radius: 10px;
+}
+
+/* locations */
+.seceda {
     background-image: url("../img/pexels-pixabay-461944.jpg");
     background-size: cover;
+    background-position: center;
     z-index: 1;
+    height: 30rem;
+    scroll-snap-align: start;
+
+}
+
+.lago {
+    background-image: url("../img/pexels-eberhardgross-1387001.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.cortina {
+    background-image: url("../img/pexels-dreamypixel-554609.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.lavaredo {
+    background-image: url("../img/pexels-tomverdoot-3181458.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.cadini {
+    background-image: url("../img/pexels-eberhardgross-3389531.jpg");
+    background-size: cover;
+    background-position: center;
     height: 30rem;
 }
 
 /* feedback form body */
-#form-background {
+.form-container {
     /* body background*/
     background-image: url("../img/pexels-eberhardgross-1386993.jpg");
     background-size: cover;
@@ -164,6 +193,7 @@ header nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 46rem;
 }
 
 
