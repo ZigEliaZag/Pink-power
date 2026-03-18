@@ -9,6 +9,7 @@
 body {
     color: #000000;
     font-family: "DM Serif Text", serif;
+    font-optical-sizing: auto;
 }
 
 
@@ -25,7 +26,7 @@ header {
 
 /* name of page */
 .dolomites {
-    margin-left: 36%;
+    /*margin-left: 36%;*/
 }
 
 .page-name {
@@ -33,10 +34,8 @@ header {
     font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font-style: normal;
     font-size: 5rem;
     backdrop-filter: blur(0.50px);
-    border-radius: 15px;
     color: hsl(166, 34%, 77%);
     text-shadow: 2px 2px white;
     text-decoration: none;
@@ -157,7 +156,6 @@ header nav {
     .cards {
         background-color: #dde0ab;
         width: 40rem;
-        height: 10rem;
         align-self: flex-end;
         align-content: center;
         justify-content: center;
@@ -189,7 +187,6 @@ header nav {
     .cards {
         background-color: #f5e1da;
         width: 40rem;
-        height: 10rem;
         align-self: flex-end;
         align-content: center;
         justify-content: center;
@@ -219,7 +216,6 @@ header nav {
     .cards {
         background-color: #99b27f;
         width: 40rem;
-        height: 10rem;
         align-self: flex-end;
         align-content: center;
         justify-content: center;
@@ -250,7 +246,6 @@ header nav {
         background: linear-gradient(58deg, #f1f1f1, #392f2f, #915b4a);
         color: white;
         width: 40rem;
-        height: 10rem;
         align-self: flex-end;
         align-content: center;
         justify-content: center;
@@ -422,7 +417,86 @@ textarea {
 @media only screen and (min-width: 600px) {}
 
 /* medium screen, 768px tablet up  */
-@media only screen and (min-width: 768px) {}
+@media(max-width: 768px) {
+
+    header {
+        height: 100px;
+    }
+
+    /* hidden navbar on left */
+    nav .navbar-large-screen {
+        position: fixed;
+        left: 100%;
+        top: 0;
+        padding: 100px 0 40px;
+        background-color: #265a5c;
+        transition: transform 0.7s;
+    }
+
+    /* show menu when it open */
+    header #nav-menu.open {
+        transform: translateX(-100%);
+    }
+
+    header .click-to-open {
+        display: flex;
+        align-items: center;
+        position: relative;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        z-index: 1;
+
+        li {
+            display: block;
+        }
+    }
+
+    /* span, lines for navbar menu option */
+    header button .show-menu {
+        position: absolute;
+        height: 3px;
+        width: 24px;
+        background-color: #f1f1f1;
+        transition: transform 0.7s;
+    }
+
+    /* adds line above */
+    header button .open-menu {
+        transform: translateY(-10px);
+    }
+
+    /* adds line under */
+    header button .close-menu {
+        transform: translateY(10px);
+    }
+
+    /* rotate when button is clicked to make a X shape"*/
+    header button.active .open-menu {
+        transform: rotate(-60deg);
+    }
+
+    header button.active .close-menu {
+        transform: rotate(60deg);
+    }
+
+    header button.active .self-rotet {
+        transform: rotate(30deg);
+    }
+
+
+
+
+    /* page name */
+    .dolomites {
+        margin-left: 0;
+    }
+
+    .page-name {
+        font-weight: 300;
+        font-size: 2rem;
+    }
+}
 
 /* 4k screens 2560px up */
 @media only screen and (max-width: 2560px) {
@@ -433,9 +507,6 @@ textarea {
     }
 
     /* name of page */
-    .dolomites {
-        margin-left: 40%;
-    }
 
     /* feedback form */
     .form-container {
