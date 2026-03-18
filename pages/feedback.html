@@ -26,13 +26,31 @@
 
 <body id="form-background">
 
+    <!--navigation bar-->
     <header class="header-image">
-        <nav>
+        <nav id="nav-menu">
+            <!-- page name  -->
+            <div class="dolomites">
+                <a href="/index.html" class="page-name">Dolomites</a>
+            </div>
             <!-- menu bar list-->
-            <button type="button" id="click-to-open">
+            <button type="button" class="click-to-open">
                 <ul class="menu-bar">
                     <li>
-                        <a href="/index.html">
+                        <span class="show-menu open-menu"></span>
+                    </li>
+                    <li>
+                        <span class="show-menu close-menu"></span>
+                    </li>
+                    <li>
+                        <span class="show-menu self-rotet"></span>
+                    </li>
+                </ul>
+            </button>
+            <div class="navbar-large-screen">
+                <ul>
+                    <li>
+                        <a href="index.html">
                             <span>Home</span>
                         </a>
                     </li>
@@ -42,18 +60,10 @@
                         </a>
                     </li>
                 </ul>
-            </button>
-            <div class="navbar-large-screen">
-                <ul>
-                    <li>
-                        <a href="/index.html">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                </ul>
             </div>
         </nav>
     </header>
+
     <!-- feedback content -->
     <main>
         <div class="form-container">
@@ -87,6 +97,8 @@
         </div>
 
     </main>
+
+    <script src="/src/main.js"></script>
 </body>
 
 </html>
