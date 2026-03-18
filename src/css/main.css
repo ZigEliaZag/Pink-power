@@ -24,10 +24,6 @@ header {
     position: sticky;
 }
 
-/* name of page */
-.dolomites {
-    /*margin-left: 36%;*/
-}
 
 .page-name {
     font-family: "Pirata One", system-ui;
@@ -118,7 +114,7 @@ header nav {
             color: #ffffff;
 
             h1 {
-                font-size: larger;
+                font-size: large;
             }
         }
     }
@@ -167,7 +163,7 @@ header nav {
 
             h3 {
                 text-align: center;
-                font-size: x-large;
+                font-size: large;
             }
         }
 
@@ -198,7 +194,7 @@ header nav {
 
             h3 {
                 text-align: center;
-                font-size: x-large;
+                font-size: large;
             }
         }
     }
@@ -227,7 +223,7 @@ header nav {
 
             h3 {
                 text-align: center;
-                font-size: x-large;
+                font-size: large;
             }
         }
     }
@@ -257,7 +253,7 @@ header nav {
 
             h3 {
                 text-align: center;
-                font-size: x-large;
+                font-size: large;
             }
         }
     }
@@ -291,7 +287,7 @@ header nav {
 
             h3 {
                 text-align: center;
-                font-size: x-large;
+                font-size: large;
             }
 
         }
@@ -433,8 +429,8 @@ textarea {
         transition: transform 0.7s;
     }
 
-    /* show menu when it open */
-    header #nav-menu.open {
+    /* show menu when clicked */
+    header .navbar-large-screen.open {
         transform: translateX(-100%);
     }
 
@@ -446,10 +442,6 @@ textarea {
         outline: none;
         cursor: pointer;
         z-index: 1;
-
-        li {
-            display: block;
-        }
     }
 
     /* span, lines for navbar menu option */
@@ -471,19 +463,24 @@ textarea {
         transform: translateY(10px);
     }
 
-    /* rotate when button is clicked to make a X shape"*/
+    /* rotate when button is clicked to make a X shape */
     header button.active .open-menu {
-        transform: rotate(-60deg);
+        transform: rotate(-38deg);
     }
 
     header button.active .close-menu {
-        transform: rotate(60deg);
+        transform: rotate(38deg);
     }
 
     header button.active .self-rotet {
-        transform: rotate(30deg);
+        transform: rotate(38deg);
     }
 
+    .hero-text {
+        h1 {
+            font-size: smaller;
+        }
+    }
 
 
 
@@ -506,7 +503,6 @@ textarea {
         height: 86.8vh;
     }
 
-    /* name of page */
 
     /* feedback form */
     .form-container {
