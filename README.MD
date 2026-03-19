@@ -23,9 +23,11 @@ with ul li and 3 span translateY -10px and 10px adds line under and above, insid
 span with 24px width and height of 3px will rotate -38 degree and 38 degree and make X shape when
  button is clicked to drag in menu which is translateX -100%. 
  When button is clicked again to remove menu, span goes back to it horizontal shape and menu is hidden.
+ With Javascript I queryselected header and it button class which then i added in function to toggle "active" to rotate span 
+ to a degree. queryselected header and divs class that contains menu lists, with toggle "open" the menu list appears in from right.
 
 * ###### Hero section  
- Hero section have a background image with a simple content wrap in div, given background color to match image a bit.
+ Hero section have a background image with a simple content wrap in div, given background color to match hero background image a bit.
 
  * ###### Main content
  main is layed out in 3 layers of scetions apart from hero section which is include i main. 
@@ -38,6 +40,9 @@ span with 24px width and height of 3px will rotate -38 degree and 38 degree and 
  On feedback page is user can give any feedback about the page or about the content. 
  The feedback form have input for user name and email, under email I have textaria where user can write feedback. 
  When user click the submit button, they see a message that their feedback was submit correcty 
+
+ * ###### Footer 
+ Inside footer are ul aligned left, with only two links, feedback page and youtube, when click it open on new tag. 
 
 
 
