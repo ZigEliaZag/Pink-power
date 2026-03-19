@@ -10,5 +10,5 @@ function openMenu() {
     navBar.classList.toggle("open")
 
 }
-
+// listen click to activete function
 showMenu.addEventListener("click", openMenu);
