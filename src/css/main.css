@@ -126,6 +126,7 @@ header nav {
     background-color: #050504;
     display: flex;
     justify-content: center;
+    padding-bottom: 8rem;
 }
 
 #section-cards {
@@ -294,6 +295,38 @@ header nav {
     }
 }
 
+.list-end {
+    font-size: 16px;
+}
+
+/* footer */
+footer {
+    background: linear-gradient(#000000, #f1f1f1);
+    display: flex;
+    height: 7.2rem;
+    width: 100%;
+
+    .footer-content {
+        padding-left: 18px;
+        display: flex;
+        align-self: flex-end;
+        align-self: center;
+
+        li {
+            padding-bottom: 8px;
+            font-weight: bold;
+
+            a {
+                color: #ffffff;
+
+                span {
+                    text-decoration: 3px #000000 underline;
+                }
+            }
+        }
+    }
+}
+
 /* feedback form body */
 .form-container {
     /* form background */
@@ -406,13 +439,8 @@ textarea {
 
 }
 
-/* smaller screen 600px down */
-@media only screen and (max-width: 600px) {}
 
-/* small screen, 600px tablet up */
-@media only screen and (min-width: 600px) {}
-
-/* medium screen, 768px tablet up  */
+/*  screen 768px up  */
 @media(max-width: 768px) {
 
     header {
@@ -493,15 +521,19 @@ textarea {
         font-weight: 300;
         font-size: 2rem;
     }
+
+    .hero-section {
+        height: 78vh;
+    }
 }
 
 /* 4k screens 2560px up */
 @media only screen and (max-width: 2560px) {
 
-    /* hero sectio */
+    /* hero sectio 
     .hero-section {
         height: 86.8vh;
-    }
+    }*/
 
 
     /* feedback form */
